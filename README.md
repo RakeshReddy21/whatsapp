@@ -68,3 +68,41 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+### Props
+
+
+## Context API --> Redux
+
+
+## Benefits of using Context API
+
+#### Advantages
+
+* **Global State Management**:
+        -->  Allows creation of global variables that can be shared across the component tree, making it easier to manage the state that affects many components.
+* **Avoids Prop Drilling**:
+        --> Eliminates the need to pass props through multiple layers of components unnecessarily, reducing code complexity.
+        --> where we can pass through mutiple layers of components unneccessarily (Like from parent to childs)
+
+* **Easy to Implement**: 
+        --> Simplifies code and reduces the learning curve for developers.
+* **Easy to Debug and Test**: 
+        --> Enables easier debugging and testing of components, improving overall development efficiency.
+
+#### Comparison to Redux
+
+* **Simplified State Management**: Context API provides a more straightforward approach to state management, reducing the need for additional libraries like Redux.
+* **Less Boilerplate Code**: Requires less setup and configuration compared to Redux, making it a more appealing choice for smaller applications.
+--> Easy to debug, test
+
+## Steps to use usecontext api :
+1. Identify the data that needs to be shared.
+2. use createContext method from react.
+3. Wrap the provider with create context
+4. Pass the value attribute to the provider### Benefits of using Context API
+5. Identify the components to use the data, use useContext hook to consume the data
+

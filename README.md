@@ -103,6 +103,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 1. Identify the data that needs to be shared.
 2. use createContext method from react.
 3. Wrap the provider with create context
-4. Pass the value attribute to the provider### Benefits of using Context API
+4. Pass the value attribute to the provider Benefits of using Context API
 5. Identify the components to use the data, use useContext hook to consume the data
 
